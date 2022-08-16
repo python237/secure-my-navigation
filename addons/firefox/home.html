@@ -1,0 +1,65 @@
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/sensitive.min.css">
+<link rel="stylesheet" type="text/css" href="css/comparo.min.css">
+<link rel="stylesheet" type="text/css" href="css/notification.min.css">
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+<link rel="stylesheet" type="text/css" href="css/loader.min.css">
+<meta charset="utf-8">
+
+<div class="wp-300 radx-4 bc-white">
+	<div class="dis-flex col-row ai-center ac-center plx-14 prx-14 ptx-12 pbx-12"> 
+		<figure>
+			<img src="icons/logo.png" class="max-hp-50 radx-4" style="max-height: 25px;" />
+		</figure>
+		<div style="text-align: center;" class="col-1 fw-8 mlx-2 fs-16 cl-blue">
+			SecureMyNavigation
+		</div>
+	</div>
+	
+	<!-- Border -->
+	<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+
+	<!-- Content -->
+	<div class="pbx-2 ff-abp fw-5 fs-16 lh-20 bc-simplewhite cl-blackblue max-hp-450 dis-flex col-column oy-auto" id="browserContent" data-pos="home">
+
+		<div class="plx-12 prx-12 ff-pba fs-14 pbx-8 ptx-8" style="background: #e5e5e5" id="browserContentTitle"></div>
+		<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+
+		<div class="mtx-10 col-1">
+			<div class="dis-flex col-column ai-center ac-center jc-center ji-center hp-375" id="browserContentLoader" style="display: none;">
+				<div>
+					<div class="ui segment">
+						<div class="ui active inverted dimmer">
+							<div class="ui loader" style="top: 55% !important;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hp-375" id="browserContentResult" style="text-align: center;">
+				<img src="icons/unnamed.webp" style="max-height: 250px; max-width: 100%;" />
+				<br/>
+				<div class="fs-16 lh-20 fw-3 cl-blue" style="text-decoration: underline; text-align: center;" id="homeSource"></div>
+				<div class="fs-20 lh-24 fw-8 cl-darkblue mtx-8" style="text-align: center;">Ce site est jugé sûr</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Border -->
+	<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+	
+	<div class="dis-flex col-row ai-center ac-center bc-white ptx-14 pbx-14 plx-10 prx-10 fs-22">
+		<div class="col-1" style="text-align: center; cursor: pointer;" id="homeButton">
+			<a href="home.html" style="text-decoration: none;">
+				<span class="ico fa-home cl-blue" style="font-weight: 200"></span>
+			</a>
+		</div>
+		<div class="col-1" style="text-align: center; cursor: pointer;" id="searchButton">
+			<a href="search.html" style="text-decoration: none;">
+				<span class="ico fa-plus cl-blackblue" style="font-weight: 200"></span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<script src="js/zulu.min.js"></script>
+<script src="js/popup.js"></script>

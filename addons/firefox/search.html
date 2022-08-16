@@ -1,0 +1,80 @@
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/sensitive.min.css">
+<link rel="stylesheet" type="text/css" href="css/comparo.min.css">
+<link rel="stylesheet" type="text/css" href="css/notification.min.css">
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+<link rel="stylesheet" type="text/css" href="css/loader.min.css">
+<meta charset="utf-8">
+
+<div class="wp-300 radx-4 bc-white">
+	<div class="dis-flex col-row ai-center ac-center plx-14 prx-14 ptx-12 pbx-12"> 
+		<figure>
+			<img src="icons/logo.png" class="max-hp-50 radx-4" style="max-height: 25px;" />
+		</figure>
+		<div style="text-align: center;" class="col-1 fw-8 mlx-2 fs-16 cl-blue">
+			SecureMyNavigation
+		</div>
+	</div>
+
+	<!-- Border -->
+	<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+
+	<!-- Content -->
+	<div class="pbx-2 ff-abp fw-5 fs-16 lh-20 bc-simplewhite cl-blackblue max-hp-450 dis-flex col-column oy-auto" id="browserContent" data-pos="search">
+
+		<div class="plx-12 prx-12 ff-pba fs-14 pbx-8 ptx-8" style="background: #e5e5e5" id="browserContentTitle"></div>
+		<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+
+		<div class="mtx-10 col-1">
+			<div class="dis-flex col-column hp-375 plx-10 prx-10 ptx-10">
+				<div class="fs-14 lh-18 cl-blackblue mbx-30 mtx-10">
+					Vous avez été victime d'arnaque en ligne ? Vous suspectez un lien d'arnaque en ligne ? 
+					Alerter nous pour aider les autres internautes à ne pas etre des victimes
+				</div>
+				
+				<label class="fs-16 ff-pba lh-16 cl-darkblue">Adresse URL</label>
+				<input class="ipn primary ff-abp mtx-12 fs-14 lh-16 ptx-12 pbx-12" type="text" id="searchInput" placeholder="Saisissez l'URL">
+				<button class="btn primary radx-4 mtx-6 fs-16 lh-18 mtx-4" id="searchButton2" style="text-align: center;">Signaler</button>
+				
+				<div style="margin-top: 80px; display: none;" id="buttonLoader">
+					<div class="ui segment">
+						<div class="ui active inverted dimmer">
+							<div class="ui loader" style="top: 65% !important;"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mtx-20 mbx-20 fs-14 fw-3 cl-darkblue" style="display: none; text-align: center;" id="browserContentResult">
+					<span class="cl-blue fw-8" id="browserContentResultSource"></span>
+					<div style="text-align: center;" class="mtx-6">à été signalé</div>
+					<div style="text-align: center;" class="mtx-12">
+						Merci de contribuer à un internet plus sûr
+					</div>	
+				</div>
+
+				<div class="mtx-20 mbx-20 fs-16 fw-8 cl-redlight" id="browserContentError" style="display: none; text-align: center;">
+					Saisissez une url valide
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Border -->
+	<div style="border: .5px solid rgba(24, 28, 30, .065)"></div>
+
+	<div class="dis-flex col-row ai-center ac-center bc-white ptx-14 pbx-14 plx-10 prx-10 fs-22">
+		<div class="col-1" style="text-align: center; cursor: pointer;" id="homeButton">
+			<a href="home.html" style="text-decoration: none;">
+				<span class="ico fa-home cl-blackblue" style="font-weight: 200"></span>
+			</a>
+		</div>
+		<div class="col-1" style="text-align: center; cursor: pointer;" id="searchButton">
+			<a href="search.html" style="text-decoration: none;">
+				<span class="ico fa-plus cl-blue" style="font-weight: 200"></span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<script src="js/zulu.min.js"></script>
+<script src="js/popup.js"></script>

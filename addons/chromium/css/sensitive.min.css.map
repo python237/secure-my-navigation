@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,UAIC,CAHG,GAAG,CAAE,kEAAkE,CACvE,WAAW,CCGC,cAAc,CDF1B,UAAU,CAAE,MAAM,CAGtB,UAKC,CAJG,GAAG,CAAE,8EAA8E,CACnF,WAAW,CCDH,UAAU,CDElB,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM,CAGtB,UAKC,CAJG,GAAG,CAAE,8DAA8D,CACnE,WAAW,CCTA,aAAa,CDUxB,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM",
+"sources": ["../sass/_fonts.scss","../sass/_variable.scss"],
+"names": [],
+"file": "sensitive.min.css"
+}
